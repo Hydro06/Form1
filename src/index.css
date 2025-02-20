@@ -1,0 +1,142 @@
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #333;
+}
+
+/* Form Styles */
+.form-container {
+  width: 50%;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+form input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.submit-btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submit-btn:hover {
+  background-color: #218838;
+}
+
+/* Student List */
+.list-container {
+  width: 60%;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.student-card {
+  background: #f9f9f9;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.student-card p {
+  margin: 5px 0;
+}
+
+.delete-btn, .update-btn {
+  padding: 8px 12px;
+  margin-top: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}
+
+.update-btn {
+  background-color: #007bff;
+  color: white;
+  margin-left: 10px;
+}
+
+.update-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Dashboard Sidebar */
+.dashboard-container {
+  display: flex;
+  gap: 20px;
+}
+
+.dashboard-sidebar {
+  width: 20%;
+  background-color: lightblue;
+  height: 100vh;
+  padding: 20px;
+}
+
+.dashboard-sidebar h1 {
+  text-align: center;
+}
+
+.dashboard-sidebar a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 10px;
+  background: white;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.dashboard-sidebar a:hover {
+  background-color: #ddd;
+}
+
+.dashboard-content {
+  width: 80%;
+  height: 100vh;
+  padding: 20px;
+}
